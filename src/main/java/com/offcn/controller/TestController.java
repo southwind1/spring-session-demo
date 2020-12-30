@@ -18,4 +18,8 @@ public class TestController {
     public String getSession(HttpSession session){
         return (String)session.getAttribute("msg");
     }
+
+    public String jell(){
+        return "hello";
+    }
 }
